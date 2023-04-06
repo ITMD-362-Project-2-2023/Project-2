@@ -76,6 +76,20 @@ main article p {
   margin-bottom: 20px;
 }
 
+#navigation ul{
+  display: flex;
+  flex-direction: column;
+  border: 0;
+  background-color: rgba(51, 102, 153, 0.8);
+}
+
+#navigation ul a{
+  cursor: pointer;
+  color: white;
+  display: block;
+  padding: 0.5em 1em;
+}
+
 main img {
   max-width: 100%;
   margin-bottom: 20px;
