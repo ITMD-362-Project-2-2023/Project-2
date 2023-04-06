@@ -32,16 +32,25 @@
       please don't hesitate to contact us using the form below. 
       We are always available to provide answers to any questions you may have regarding the International Society for Universal Dialogue.
     </p>
-    <form name="contactForm" method="post" action="submit-form.php">
-      <label for="name">Name *</label>
-      <input type="text" name="name" id="name" required>
-      <label for="email">Email *</label>
-      <input type="email" name="email" id="email" required>
-      <label for="subject">Subject</label>
-      <input type="text" name="subject" id="subject">
-      <label for="message">Message *</label>
-      <textarea name="message" id="message" required></textarea>
-      <input type="submit" value="Send Message">
+    <form name="contactForm" method="get" autocomplete="on" action="#null">
+      <div id="error">Some or all necessary fields are  missing. Necessary fields are marked with *</div>
+      <ol>
+        <li>
+          <input type="text" name="name_field" placeholder="Name *">
+        </li>
+        <li id="email">
+          <input type="email" name="email_field" placeholder="Email *">
+        </li>
+        <li id="subject">
+          <input type="text" name="submit_field" placeholder="Subject">
+        </li>
+        <li id="msg">
+          <input type="text" id="msg-field" name="message_field" placeholder="Message">
+        </li>
+        <li id="submit">
+          <input type="submit" id="submit-btn" name="submitBtn" onclick="checkRequirements()" value="Send Message">
+        </li>
+      </ol>
     </form>
     <footer>
       <a href="https://www.facebook.com/wix" target="_blank">
