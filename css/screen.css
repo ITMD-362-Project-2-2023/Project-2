@@ -129,6 +129,22 @@ footer img {
   }
 }
 
+@media screen and (min-width: 650px) {
+  form #submit-btn {
+    width: 60%;
+  }
+  
+  input {
+    font-size: 1em;
+    background-color: #003366;
+    color: white;
+    width: 80%;
+    border-color: white;
+    display: block; /* add this rule */
+    margin: 0 auto; /* add this rule */
+  }
+}
+
 @media screen and (min-width: 1000px) {
   input {
     width: 65%;
