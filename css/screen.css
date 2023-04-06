@@ -102,7 +102,7 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 0.6e;
-  background-color: #d7eded;
+  background-color: rgba(51, 102, 153, 0.8);
   color: #white;
   padding: 20px;
 }
