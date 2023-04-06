@@ -77,10 +77,10 @@ main article p {
 }
 
 #navigation ul{
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;
   border: 0;
   background-color: rgba(51, 102, 153, 0.8);
+  flex-wrap: nowrap;
 }
 
 #navigation ul a{
