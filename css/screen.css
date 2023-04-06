@@ -115,7 +115,7 @@ footer img {
   width: 30px;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 650px) {
   form #submit-btn {
     width: 60%;
   }
@@ -139,7 +139,7 @@ footer img {
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1300px) {
   input {
     width: 40%;
   }
