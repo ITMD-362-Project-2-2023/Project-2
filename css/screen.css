@@ -104,9 +104,8 @@ footer {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 0.6e;
   background-color: rgba(51, 102, 153, 0.8);
-  color: #white;
+  color: #ffffff;
   padding: 20px;
 }
 
