@@ -141,6 +141,16 @@ p {
   padding: 1em;
 }
 
+main img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
 @media screen and (min-width: 650px) {
   form #submit-btn {
     width: 60%;
