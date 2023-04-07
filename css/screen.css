@@ -200,3 +200,39 @@ main img {
     width: 10%;
   }
 }
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  header #title h2 {
+    font-size: 20px;
+  }
+  
+  header #title img {
+    width: 70px;
+  }
+  
+  header #navigation ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  header #navigation li {
+    margin: 5px;
+  }
+  
+  main article h1 {
+    font-size: 24px;
+  }
+  
+  main img {
+    width: 100%;
+  }
+  
+  input {
+    width: 90%;
+  }
+  
+  form #submit-btn {
+    width: 100%;
+  }
+}
