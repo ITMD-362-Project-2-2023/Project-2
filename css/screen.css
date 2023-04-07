@@ -128,6 +128,14 @@ footer img {
   padding-left: 3em;
 }
 
+ul#about_list {
+  color: #db583c;
+  flex-direction: row;
+  background: #d0cce4;
+  border: solid;
+  border-color: #000000;
+}
+
 p {
   padding: 1em;
 }
