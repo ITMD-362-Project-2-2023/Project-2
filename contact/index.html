@@ -9,7 +9,6 @@
     <link rel="stylesheet" media="screen" href="../css/screen.css">
     <script src="js/script.js" async></script>
     <script src="js/site.js"></script>
-    
   </head>
   <body id="contact">
     <header>
@@ -33,7 +32,8 @@
       We are always available to provide answers to any questions you may have regarding the International Society for Universal Dialogue.
     </p>
     <form name="contactForm" method="get" autocomplete="on" action="#null" onsubmit="checkRequirements()">
-      <div id="error">Some or all necessary fields are  missing. Necessary fields are marked with *</div>
+      <div id="error">Some or all necessary fields are missing. Necessary fields are marked with *</div>
+      <ul>
         <li>
           <input type="text" name="name_field" placeholder="Name *">
         </li>
@@ -49,6 +49,7 @@
         <li id="submit">
           <input type="submit" id="submit-btn" name="submitBtn" onclick="checkRequirements()" value="Send Message">
         </li>
+      </ul>
     </form>
     <footer>
       <a href="https://www.facebook.com/wix" target="_blank">
