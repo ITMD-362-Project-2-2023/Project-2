@@ -151,22 +151,6 @@ main img {
   display: inline-block;
 }
 
-@media screen and (max-width: 650px) {
-  form #submit-btn {
-    width: 60%;
-  }
-  
-  input {
-    font-size: 1em;
-    background-color: #003366;
-    color: white;
-    width: 90%;
-    border-color: white;
-    display: block; 
-    margin: 0 auto; 
-  }
-} 
-
 @media screen and (max-width: 1000px) {
   input {
     width: 65%;
@@ -215,7 +199,13 @@ main img {
   }
   
   input {
+    font-size: 1em;
+    background-color: #003366;
+    color: white;
     width: 90%;
+    border-color: white;
+    display: block; 
+    margin: 0 auto; 
   }
   
   form #submit-btn {
