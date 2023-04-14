@@ -151,17 +151,7 @@ main img {
   display: inline-block;
 }
 
-@media screen and (max-width: 1000px) {
-  input {
-    width: 65%;
-  }
-  
-  form #submit-btn {
-    width: 30%;
-  }
-}
-
-@media screen and (max-width: 1300px) {
+@media screen and (min-width: 1200px) {
   input {
     width: 40%;
   }
@@ -172,7 +162,7 @@ main img {
 }
 
 /* Mobile */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 480px) {
   header #title h2 {
     font-size: 20px;
   }
