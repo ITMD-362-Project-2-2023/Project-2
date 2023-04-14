@@ -14,7 +14,6 @@ header {
   padding: 20px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
-
 header #title h2 {
   display: flex;
   align-items: center;
@@ -23,29 +22,24 @@ header #title h2 {
   font-weight: 500;
   color: #333;
 }
-
 header #title img {
   width: 100px;
   margin-right: 10px;
 }
-
 header #navigation ul {
   display: flex;
   list-style-type: none;
   justify-content: flex-end;
 }
-
 header #navigation li {
   margin: 0 10px;
 }
-
 header #navigation a {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #333;
   text-decoration: none;
 }
-
 header #navigation a:hover {
   color: #0077FF;
 }
@@ -57,12 +51,10 @@ main {
   align-items: center;
   padding: 20px;
 }
-
 main article {
   max-width: 800px;
   margin-bottom: 20px;
 }
-
 main article h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 32px;
@@ -70,7 +62,6 @@ main article h1 {
   color: #333;
   margin-bottom: 10px;
 }
-
 main article p {
   margin-bottom: 20px;
 }
@@ -81,7 +72,6 @@ main article p {
   background-color: rgba(51, 102, 153, 0.8);
   flex-wrap: wrap;
 }
-
 #navigation ul a{
   cursor: pointer;
   color: white;
@@ -108,11 +98,9 @@ footer {
   color: #ffffff;
   padding: 20px;
 }
-
 footer a {
   margin: 0 10px;
 }
-
 footer img {
   width: 30px;
 }
@@ -122,12 +110,9 @@ footer img {
   padding-bottom: 0.5em;
   padding-top: 0.5em;
 }
-
-
 #about_list {
   padding-left: 3em;
 }
-
 ul#about_list {
   color: #db583c;
   flex-direction: row;
@@ -159,7 +144,6 @@ form {
   input {
     width: 40%;
   }
-  
   form #submit-btn {
     width: 10%;
   }
@@ -170,24 +154,20 @@ form {
   header #title h2 {
     font-size: 20px;
   }
-  
   header #title img {
     width: 70px;
   }
-  
   header #navigation ul {
     flex-wrap: wrap;
     justify-content: center;
   }
-  
   header #navigation li {
     margin: 5px;
   }
   
   main article h1 {
     font-size: 24px;
-  }
-  
+  }  
   main img {
     width: 100%;
   }
