@@ -174,13 +174,13 @@ form {
     font-size: 1em;
     background-color: #9fd1f3;
     color: black;
-    width: 90%;
+    width: 60%;
     border-color: white;
     display: block; 
     margin: 0 auto; 
   }
   
   form #submit-btn {
-    width: 100%;
+    width: 20%;
   }
 }
