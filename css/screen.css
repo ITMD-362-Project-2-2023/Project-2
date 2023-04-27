@@ -141,11 +141,9 @@ form {
 @media screen and (min-width: 1200px) {
   input {
     width: 40%;
-    background-color: #9fd1f3;
   }
   form #submit-btn {
     width: 10%;
-    background-color: #f8e506;
   }
 }
 
